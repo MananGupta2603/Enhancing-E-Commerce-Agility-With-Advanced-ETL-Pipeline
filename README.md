@@ -1,6 +1,11 @@
 # Enhancing-E-Commerce-Agility-With-Advanced-ETL-Pipeline
 
-**Technologies used :**
+You are hired as a Data Engineer for an e-commerce company where the Order and Returns teams regularly upload data files through a Streamlit web application to AWS Data Lake
+
+## Problem Statement:
+As a Data Engineer the objective is to build an end-to-end automated data processing workflow that handles data uploads from the Order and Returns teams, performs a join operation using Glue & PySpark, stores the joined data in RDS, and sends notifications about the pipeline's status using SNS.
+
+### Technologies used :
 1) AWS Glue
 2) pyspark
 3) SNS
@@ -11,11 +16,7 @@
 8) Streamlit
 
 
-You are hired as a Data Engineer for an e-commerce company where the Order and Returns teams regularly upload data files through a Streamlit web application to AWS Data Lake
-
-
-## Problem Statement:
-As a Data Engineer the objective is to build an end-to-end automated data processing workflow that handles data uploads from the Order and Returns teams, performs a join operation using Glue & PySpark, stores the joined data in RDS, and sends notifications about the pipeline's status using SNS.
+![](Workflow.png)
 
 ## Use case :
 ### Teams and Data Upload:
