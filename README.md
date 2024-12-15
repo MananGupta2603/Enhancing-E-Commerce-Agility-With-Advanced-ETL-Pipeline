@@ -12,7 +12,7 @@ As a Data Engineer the objective is to build an end-to-end automated data proces
 4) Step Funtion
 5) S3
 6) RDS
-7) Athena
+7) EC2
 8) Streamlit
 
 
